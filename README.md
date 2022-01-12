@@ -1,5 +1,6 @@
 # PermissionioHomeClone
 *Sitenini sadece Ana Sayfası klonlanmaktadır.* <br>
+> Projede şu an için sadece Bootstrap 5 kullanılmaktadır.
 Klonlanan siteye bu [adresten](https://permission.io/) ulaşabilirsiniz. 
 Projenini orjinal hali ve yapım aşamasındaki hali sırasıyla görsellerde belirtilmiştir.
 <br>
