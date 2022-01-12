@@ -1,0 +1,118 @@
+@import "_color.scss";
+@import "_font";
+header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: $first-color;
+  font-family: "Poppins", sans-serif;
+
+  .main-menu-item a {
+    color: $white !important;
+  }
+
+  #ask-wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: $btn-1;
+    padding: 0 12px;
+    border-radius: 10em;
+    border: 1px solid #666;
+    height: 38px;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-right: 7px;
+    letter-spacing: 0.045em;
+
+    span {
+      color: #ffc700;
+      font-weight: 800;
+      letter-spacing: 0.045em;
+      margin-left: 3px;
+    }
+  }
+  #user-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ea379e;
+    border-radius: 10em;
+    height: 38px;
+    padding: 0 30px 0 48px;
+    max-width: 182px;
+
+    &::before {
+      content: "";
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjInIGhlaWdodD0nMjInIHZpZXdCb3g9JzAgMCAyMiAyMicgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4gPHBhdGggZD0nTTExIDBDNC45MjggMCAwIDQuOTI4IDAgMTFDMCAxNy4wNzIgNC45MjggMjIgMTEgMjJDMTcuMDcyIDIyIDIyIDE3LjA3MiAyMiAxMUMyMiA0LjkyOCAxNy4wNzIgMCAxMSAwWk0xMSAzLjNDMTIuODI2IDMuMyAxNC4zIDQuNzc0IDE0LjMgNi42QzE0LjMgOC40MjYgMTIuODI2IDkuOSAxMSA5LjlDOS4xNzQgOS45IDcuNyA4LjQyNiA3LjcgNi42QzcuNyA0Ljc3NCA5LjE3NCAzLjMgMTEgMy4zWk0xMSAxOC45MkM5LjY5MzA1IDE4LjkyIDguNDA2NCAxOC41OTY2IDcuMjU0ODEgMTcuOTc4NkM2LjEwMzIxIDE3LjM2MDUgNS4xMjI0NiAxNi40NjcxIDQuNCAxNS4zNzhDNC40MzMgMTMuMTg5IDguOCAxMS45OSAxMSAxMS45OUMxMy4xODkgMTEuOTkgMTcuNTY3IDEzLjE4OSAxNy42IDE1LjM3OEMxNi44Nzc1IDE2LjQ2NzEgMTUuODk2OCAxNy4zNjA1IDE0Ljc0NTIgMTcuOTc4NkMxMy41OTM2IDE4LjU5NjYgMTIuMzA3IDE4LjkyIDExIDE4LjkyWicgZmlsbD0nd2hpdGUnLz4gPC9zdmc+);
+      width: 22px;
+      height: 22px;
+      object-fit: fill;
+      position: absolute;
+      left: 6px;
+    }
+  }
+}
+.sidebar{
+    #sidemenu{
+        position: fixed;
+        z-index: -1;
+        height: 100%;
+        min-width: 204px;
+        min-height: 40vh;
+        background-color: $white;
+        box-shadow: 2px 4px 6px rgba(24, 23, 23, 0.14);
+        ul{
+            margin-top: 80px;
+            li{
+                padding: 0 15px;
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+                line-height: 45px;
+                a{
+                    text-decoration: none;
+                    color: #181818;
+                    font-weight: 600;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+.cookie{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 999999;
+    width: 50px;
+    height: 50px;
+    background-color: #6aaae4;
+    border-radius: 10px;
+    button{
+        background-color: transparent;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+
+        svg{
+            width: 30px;
+            height: 40px;
+            color: white;
+        }
+    }
+}
+
+.content{
+        margin-left: 204px;
+        padding: 20px;
+        
+        main{
+            max-width: 1143px;
+            height: 1000px;
+            margin-top: 100px;
+
+        }
+}
